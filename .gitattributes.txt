@@ -1,0 +1,2 @@
+* linguist-vendored
+*.gwt.xml linguist-vendored=false
