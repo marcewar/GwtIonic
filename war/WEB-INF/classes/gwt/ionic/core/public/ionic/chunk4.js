@@ -1,5 +1,0 @@
-/*!
- * (C) Ionic http://ionicframework.com - MIT License
- * Built with http://stenciljs.com
- */
-const{h:t}=window.Ionic;let n=function(t){const n=["webkitTransform","-webkit-transform","webkit-transform","transform"].find(n=>void 0!==t.style[n])||"transform",i=["webkitTransition","transition"].find(n=>void 0!==t.style[n])||"transition",r=i.indexOf("webkit")>-1?"-webkit-":"";return{transitionDurationProp:r+"transition-duration",transitionTimingFnProp:r+"transition-timing-function",transformProp:n,transitionProp:i}}(document.documentElement),i={translateX:1,translateY:1,translateZ:1,scale:1,scaleX:1,scaleY:1,scaleZ:1,rotate:1,rotateX:1,rotateY:1,rotateZ:1,skewX:1,skewY:1,perspective:1},r=/(^-?\d*\.?\d*)(.*)/,o=32,e=400;export{n as CSS_PROP,r as CSS_VALUE_REGEX,o as DURATION_MIN,i as TRANSFORM_PROPS,e as TRANSITION_END_FALLBACK_PADDING_MS};
